@@ -1,4 +1,4 @@
-Goal: Make a compelling text based adventure game with multiple branches and endings.
+Goal: Make a compelling text game with multiple branches and endings.
 
 button.classList.add('btn') 
 This adds a class of btn to the button. This can be useful for styling purposes.
