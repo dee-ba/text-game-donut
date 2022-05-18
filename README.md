@@ -12,7 +12,6 @@ setState
 Can set a state to a boolean value.
 Multiple states can be used, if seperated by a comma.
 
-___________________________
 
 # Installation:
 
