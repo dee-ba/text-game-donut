@@ -17,7 +17,7 @@ Multiple states can be used, if seperated by a comma.
 
 # Installation:
 
-- Use the terminal to clone this repo:
+Use the terminal to clone this repo:
     git clone https://github.com/NinaAurora/text-game.git
-- Make sure it's up to date:
+Make sure it's up to date:
     git pull
