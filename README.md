@@ -1,5 +1,7 @@
 # Challenge information:
 
+//Add link to presentation and example site
+
 **Goal**: Make a compelling text game with multiple branches and endings.
 Feel free to use frameworks if you feel that will make things easier.
 
