@@ -1,13 +1,19 @@
 const textElement = document.getElementById('placeholder-replace-this') // Add the ID of the element you want to change
 const optionButtonsElement = document.getElementById('placeholder-replace-this') // Add the ID of the element you want to change
+//This is the link between the buttons and text in the HTML document and this document.
 
-//You probably don't want to touch this
+
+
+//----- You probably don't want to touch the following block of code -----
+
 let state = {}
+//This stores the state that you can set in textNodes.
 
 function startGame() {
   state = {}
   showTextNode(1)
 }
+//This starts the game at the textNode with id 1.
 
 function showTextNode(textNodeIndex) {
   const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
@@ -26,10 +32,12 @@ function showTextNode(textNodeIndex) {
     }
   })
 }
+//This shows and gives functionality to the text and the buttons, and code can be added to allow styling of the buttons.
 
 function showOption(option) {
   return option.requiredState == null || option.requiredState(state)
 }
+//This gives you the choices in the buttons.
 
 function selectOption(option) {
   const nextTextNodeId = option.nextText
@@ -39,7 +47,10 @@ function selectOption(option) {
   state = Object.assign(state, option.setState)
   showTextNode(nextTextNodeId)
 }
-//You probably don't want to touch this
+//This lets the button go to the assigned textNode id.
+
+//----- You probably don't want to touch the above block of code -----
+
 
 
 //Have fun with this code block
