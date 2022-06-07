@@ -51,4 +51,12 @@ You can test your game by opening the `index.html` file inside a webbrowser.
 Hosting on Vercel:
 ---
 
-Log into Vercel to deploy this GitHub repository as a website. On the Overview tab, click Create a New Project. Choose to Import Git Repository and select the github account and repository. When Vercel prompts to Create a Team, click Skip, then Deploy. The deployment process takes a moment, then Vercel shows a preview of the home page of the new website, which you can click to see the URLs that Vercel associates with the site.
+Log into Vercel to deploy this GitHub repository as a website. 
+
+On the Overview tab, click Create a New Project. 
+
+Choose to Import Git Repository and select the github account and repository. 
+
+When Vercel prompts to Create a Team, click Skip, then Deploy. 
+
+The deployment process takes a moment, then Vercel shows a preview of the home page of the new website, which you can click to see the URLs that Vercel associates with the site.
