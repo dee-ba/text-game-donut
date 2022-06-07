@@ -4,8 +4,10 @@ Take a look at the example we made:
 https://assessment-example.vercel.app/
 
 
-**Goal**: Make a compelling text game with multiple branches and endings.
+**Goal**: Make a compelling text game with multiple branches and endings and host the finished game on Vercel
 Feel free to use frameworks if you feel that will make things easier.
+
+
 
 > New to coding, and don't know what's going on? Don't try to understand everything, just the pieces that you need to build with.
 
@@ -45,3 +47,8 @@ Test:
 ---
 
 You can test your game by opening the `index.html` file inside a webbrowser.
+
+Hosting on Vercel:
+---
+
+Log into Vercel to deploy this GitHub repository as a website. On the Overview tab, click Create a New Project. Choose to Import Git Repository and select the github account and repository. When Vercel prompts to Create a Team, click Skip, then Deploy. The deployment process takes a moment, then Vercel shows a preview of the home page of the new website, which you can click to see the URLs that Vercel associates with the site.
